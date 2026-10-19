@@ -48,55 +48,55 @@ def fetch():
         commits += c["totalCommitContributions"]
         contributions += c["contributionCalendar"]["totalContributions"]
 
-    # Diagnostic summary (counts only, never repository names: Actions logs are public)
-    diag = {"total": 0, "forks": 0, "private": 0, "owners": {}, "fork_langs": {}}
-    cursor = None
-    while True:
-        page = gql("""query($after: String) { viewer {
-            repositories(first: 100, after: $after,
-                         ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER]) {
-              pageInfo { hasNextPage endCursor }
-              nodes { isFork isPrivate owner { login }
-                languages(first: 10) { edges { size node { name } } } }
-            } } }""", {"after": cursor})["viewer"]["repositories"]
-        for n in page["nodes"]:
-            diag["total"] += 1
-            diag["private"] += n["isPrivate"]
-            owner = n["owner"]["login"]
-            diag["owners"][owner] = diag["owners"].get(owner, 0) + 1
-            if n["isFork"]:
-                diag["forks"] += 1
-                for e in n["languages"]["edges"]:
-                    k = e["node"]["name"]
-                    diag["fork_langs"][k] = diag["fork_langs"].get(k, 0) + e["size"]
-        if not page["pageInfo"]["hasNextPage"]:
-            break
-        cursor = page["pageInfo"]["endCursor"]
-    orgs = gql("{ viewer { organizations(first: 20) { nodes { login } } } }")
-    print("DIAG repos:", json.dumps(diag))
-    print("DIAG orgs token can see:", [o["login"] for o in orgs["viewer"]["organizations"]["nodes"]])
+    # Collect repositories from two sources and de-duplicate:
+    # 1) repos the user owns or collaborates on
+    # 2) every repo in each organization (org owners don't always get these via affiliation)
+    LANG_FIELDS = """nodes { id isFork owner { login }
+        languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+          edges { size node { name color } } } }
+        pageInfo { hasNextPage endCursor }"""
 
-    repos, langs, cursor = 0, {}, None
-    while True:
-        page = gql("""query($after: String) { viewer {
-            repositories(first: 100, after: $after, isFork: false,
-                         ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER]) {
-              totalCount
-              pageInfo { hasNextPage endCursor }
-              nodes { languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
-                edges { size node { name color } } } }
-            } } }""", {"after": cursor})["viewer"]["repositories"]
-        repos = page["totalCount"]
-        for node in page["nodes"]:
-            for e in node["languages"]["edges"]:
-                name = e["node"]["name"]
-                if name in IGNORED_LANGS:
-                    continue
-                entry = langs.setdefault(name, {"size": 0, "color": e["node"]["color"] or "#8B949E"})
-                entry["size"] += e["size"]
-        if not page["pageInfo"]["hasNextPage"]:
-            break
-        cursor = page["pageInfo"]["endCursor"]
+    seen = {}
+
+    def collect(query, path, variables):
+        cursor = None
+        while True:
+            node = gql(query, {**variables, "after": cursor})
+            for key in path:
+                node = node[key]
+            for repo in node["nodes"]:
+                if repo and not repo["isFork"]:
+                    seen[repo["id"]] = repo
+            if not node["pageInfo"]["hasNextPage"]:
+                break
+            cursor = node["pageInfo"]["endCursor"]
+
+    collect("""query($after: String) { viewer {
+        repositories(first: 100, after: $after,
+                     ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER]) {
+          %s } } }""" % LANG_FIELDS, ["viewer", "repositories"], {})
+
+    orgs = gql("{ viewer { organizations(first: 50) { nodes { login } } } }")
+    for org in orgs["viewer"]["organizations"]["nodes"]:
+        collect("""query($login: String!, $after: String) { organization(login: $login) {
+            repositories(first: 100, after: $after) { %s } } }""" % LANG_FIELDS,
+                ["organization", "repositories"], {"login": org["login"]})
+
+    langs = {}
+    for repo in seen.values():
+        for e in repo["languages"]["edges"]:
+            name = e["node"]["name"]
+            if name in IGNORED_LANGS:
+                continue
+            entry = langs.setdefault(name, {"size": 0, "color": e["node"]["color"] or "#8B949E"})
+            entry["size"] += e["size"]
+    repos = len(seen)
+
+    # Log counts per owner only (never repository names: Actions logs are public)
+    owners = {}
+    for repo in seen.values():
+        owners[repo["owner"]["login"]] = owners.get(repo["owner"]["login"], 0) + 1
+    print("Repositories per owner:", json.dumps(owners))
 
     return {
         "stats": [
