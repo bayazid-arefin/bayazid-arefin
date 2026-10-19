@@ -175,21 +175,16 @@ Every project in Selected Work runs on servers I set up and manage myself. From 
 ## GitHub Activity
 
 <p align="center">
-  <img src="metrics.overview.svg" width="49%" alt="GitHub overview including private repositories" />
-  <img src="metrics.languages.svg" width="49%" alt="Most used languages including private repositories" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg" />
+    <img src="stats-light.svg" width="100%" alt="GitHub overview including private and organization repositories" />
+  </picture>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=bayazid-arefin&ring=E8541F&fire=E8541F&currStreakLabel=E8541F&border_radius=10&background=0D1117&border=30363D&stroke=30363D&currStreakNum=F5F5F4&sideNums=F5F5F4&sideLabels=A8A29E&dates=78716C" />
     <img src="https://streak-stats.demolab.com?user=bayazid-arefin&ring=E8541F&fire=E8541F&currStreakLabel=E8541F&border_radius=10&background=FFFFFF&border=F1E4DC&stroke=F1E4DC&currStreakNum=111111&sideNums=111111&sideLabels=57534E&dates=A8A29E" width="100%" alt="GitHub streak" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=bayazid-arefin&bg_color=0D1117&color=F5F5F4&title_color=F5F5F4&line=E8541F&point=FFFFFF&area=true&area_color=E8541F&hide_border=false&border_color=30363D&radius=10&custom_title=Contribution%20Graph" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=bayazid-arefin&bg_color=FFFFFF&color=292524&title_color=292524&line=E8541F&point=111111&area=true&area_color=E8541F&hide_border=false&border_color=F1E4DC&radius=10&custom_title=Contribution%20Graph" width="100%" alt="Contribution graph" />
   </picture>
 </p>
 
