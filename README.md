@@ -9,13 +9,16 @@
   <img src="https://img.shields.io/badge/Dhaka,%20Bangladesh-292524?style=flat-square&logo=googlemaps&logoColor=white" />
 </p>
 
-## About
+## About Me
 
-I'm a full-stack developer and the founder of **Frontous IT Ltd.**, a software and digital services company in Dhaka. I design and build web applications, admin platforms and business websites for companies and clients in Bangladesh and the US, from planning through deployment.
+I'm **Bayazid Arefin**, a Full-Stack Web Developer and Entrepreneur passionate about building scalable web applications, innovative digital products, and technology-driven businesses.
 
-Every project I build runs on a **Node.js, Express and MongoDB** backend, and I deploy and manage the production servers myself on **Ubuntu VPS**.
+I specialize in developing modern web solutions, SaaS platforms, admin dashboards, and business management systems using technologies like React, Next.js, Node.js, MongoDB, Server Management.
 
-Alongside running the company, I study Computer Science and Engineering at IUBAT.
+As the founder of **Frontous IT Ltd.**, I focus on turning ideas into impactful digital solutions, helping businesses streamline operations, improve efficiency, and grow through technology.
+
+I believe in continuous learning, clean code, thoughtful UI/UX, and building products that solve real-world problems.
+
 
 ## Organizations
 
@@ -27,7 +30,7 @@ Alongside running the company, I study Computer Science and Engineering at IUBAT
   <tr>
     <td valign="top">
       <sub><b>Founder</b> · Uttara, Dhaka</sub><br/><br/>
-      Software development, UI/UX design, digital marketing, cloud and AI services for businesses.
+      Website Development, Software development, UI/UX design, Digital Marketing, Cloud and AI services for businesses.
       <br/><br/>
       <a href="https://frontous.com"><img src="https://img.shields.io/badge/Visit%20website-E8541F?style=flat-square" /></a>
     </td>
@@ -186,8 +189,9 @@ Every project in Selected Work runs on servers I set up and manage myself. From 
 </p>
 
 <p align="center">
-  <a href="https://wa.me/8801XXXXXXXXX"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:YOUR-EMAIL@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://frontous.com"><img src="https://img.shields.io/badge/Frontous%20IT%20Ltd.-E8541F?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://wa.me/8801521723461"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/bayazid-arefin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:web.bayazidarefin
+  @gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+
 </p>
