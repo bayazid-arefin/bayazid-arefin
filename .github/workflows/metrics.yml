@@ -1,0 +1,44 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # every day at 06:00 Dhaka time
+  workflow_dispatch:       # run manually from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # Overview: contributions, commits, PRs, repositories (private included)
+      - name: Overview
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.overview.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: bayazid-arefin
+          template: classic
+          base: activity, community, repositories
+          repositories_affiliations: owner, collaborator, organization_member
+          config_timezone: Asia/Dhaka
+
+      # Languages: calculated from private and organization repositories too
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: bayazid-arefin
+          template: classic
+          base: ""
+          repositories_affiliations: owner, collaborator, organization_member
+          config_timezone: Asia/Dhaka
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          plugin_languages_ignored: html, css, scss
