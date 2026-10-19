@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="250" viewBox="0 0 840 250">
+<style>text{font-family:"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="839" height="249" rx="10" fill="#0D1117" stroke="#30363D"/>
+<text x="28" y="40" font-size="17" font-weight="600" fill="#F5F5F4">GitHub Overview</text>
+<text x="812" y="40" font-size="12" text-anchor="end" fill="#A8A29E">Including private &amp; organization repositories</text>
+<text x="126" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#F5F5F4">1,195</text>
+<text x="126" y="124" font-size="13" text-anchor="middle" fill="#A8A29E">Contributions</text>
+<text x="322" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#F5F5F4">946</text>
+<text x="322" y="124" font-size="13" text-anchor="middle" fill="#A8A29E">Commits</text>
+<line x1="224" y1="72" x2="224" y2="130" stroke="#30363D"/>
+<text x="518" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#F5F5F4">230</text>
+<text x="518" y="124" font-size="13" text-anchor="middle" fill="#A8A29E">Pull Requests</text>
+<line x1="420" y1="72" x2="420" y2="130" stroke="#30363D"/>
+<text x="714" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#F5F5F4">17</text>
+<text x="714" y="124" font-size="13" text-anchor="middle" fill="#A8A29E">Repositories</text>
+<line x1="616" y1="72" x2="616" y2="130" stroke="#30363D"/>
+<text x="28" y="168" font-size="13" font-weight="600" fill="#E8541F">Most used languages</text>
+<clipPath id="bar"><rect x="28" y="180" width="784" height="10" rx="5"/></clipPath>
+<rect x="28" y="180" width="784" height="10" rx="5" fill="#21262D"/>
+<rect clip-path="url(#bar)" x="28.00" y="180" width="784.00" height="10" fill="#f1e05a"/>
+<circle cx="33" cy="217" r="5" fill="#f1e05a"/>
+<text x="44" y="221" font-size="12.5" fill="#F5F5F4">JavaScript <tspan fill="#A8A29E">100.0%</tspan></text>
+</svg>
