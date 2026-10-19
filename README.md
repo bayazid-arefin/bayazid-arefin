@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rect&height=150&text=Bayazid%20Arefin&fontSize=44&fontAlignY=42&desc=Founder%20of%20Frontous%20IT%20Ltd.%20%20%7C%20%20Full-Stack%20Developer&descSize=15&descAlignY=68&descColor=E8541F&color=0:0D1117,100:2A140B&fontColor=F5F5F4" />
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=150&text=Bayazid%20Arefin&fontSize=44&fontAlignY=42&desc=Founder%20of%20Frontous%20IT%20Ltd.%20%20%7C%20%20Full-Stack%20Developer&descSize=15&descAlignY=68&descColor=E8541F&color=0:FFFFFF,100:FFEDE3&fontColor=111111" width="100%" alt="Bayazid Arefin" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rect&height=150&text=Bayazid%20Arefin&fontSize=44&fontAlignY=42&desc=Founder%20of%20Frontous%20IT%20Ltd.%20%20%7C%20%20Full-Stack%20Developer&descSize=15&descAlignY=68&descColor=E8541F&color=0:0D1117%2C100:2A140B&fontColor=F5F5F4" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=150&text=Bayazid%20Arefin&fontSize=44&fontAlignY=42&desc=Founder%20of%20Frontous%20IT%20Ltd.%20%20%7C%20%20Full-Stack%20Developer&descSize=15&descAlignY=68&descColor=E8541F&color=0:FFFFFF%2C100:FFEDE3&fontColor=111111" width="100%" alt="Bayazid Arefin" />
 </picture>
 
 <p align="center">
@@ -178,6 +178,16 @@ Every project in Selected Work runs on servers I set up and manage myself. From 
   </picture>
 </p>
 
----
+## Let's Work Together
 
-<p align="center"><sub>Open to project inquiries through <a href="https://frontous.com">Frontous IT Ltd.</a></sub></p>
+<p align="center">
+  Have a project in mind, need a website or platform built, or want help running it in production?<br/>
+  <b>Let's talk.</b>
+</p>
+
+<p align="center">
+  <a href="https://wa.me/8801XXXXXXXXX"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:YOUR-EMAIL@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://frontous.com"><img src="https://img.shields.io/badge/Frontous%20IT%20Ltd.-E8541F?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+</p>
