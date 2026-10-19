@@ -48,6 +48,34 @@ def fetch():
         commits += c["totalCommitContributions"]
         contributions += c["contributionCalendar"]["totalContributions"]
 
+    # Diagnostic summary (counts only, never repository names: Actions logs are public)
+    diag = {"total": 0, "forks": 0, "private": 0, "owners": {}, "fork_langs": {}}
+    cursor = None
+    while True:
+        page = gql("""query($after: String) { viewer {
+            repositories(first: 100, after: $after,
+                         ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER]) {
+              pageInfo { hasNextPage endCursor }
+              nodes { isFork isPrivate owner { login }
+                languages(first: 10) { edges { size node { name } } } }
+            } } }""", {"after": cursor})["viewer"]["repositories"]
+        for n in page["nodes"]:
+            diag["total"] += 1
+            diag["private"] += n["isPrivate"]
+            owner = n["owner"]["login"]
+            diag["owners"][owner] = diag["owners"].get(owner, 0) + 1
+            if n["isFork"]:
+                diag["forks"] += 1
+                for e in n["languages"]["edges"]:
+                    k = e["node"]["name"]
+                    diag["fork_langs"][k] = diag["fork_langs"].get(k, 0) + e["size"]
+        if not page["pageInfo"]["hasNextPage"]:
+            break
+        cursor = page["pageInfo"]["endCursor"]
+    orgs = gql("{ viewer { organizations(first: 20) { nodes { login } } } }")
+    print("DIAG repos:", json.dumps(diag))
+    print("DIAG orgs token can see:", [o["login"] for o in orgs["viewer"]["organizations"]["nodes"]])
+
     repos, langs, cursor = 0, {}, None
     while True:
         page = gql("""query($after: String) { viewer {
