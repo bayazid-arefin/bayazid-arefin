@@ -6,39 +6,27 @@ on:
   workflow_dispatch:       # run manually from the Actions tab
   push:
     branches: [main]
+    paths:
+      - ".github/**"
 
 permissions:
   contents: write
 
 jobs:
-  metrics:
+  stats:
     runs-on: ubuntu-latest
     steps:
-      # Overview: contributions, commits, PRs, repositories (private included)
-      - name: Overview
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.overview.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: bayazid-arefin
-          template: classic
-          base: activity, community, repositories
-          repositories_affiliations: owner, collaborator, organization_member
-          config_timezone: Asia/Dhaka
+      - uses: actions/checkout@v4
 
-      # Languages: calculated from private and organization repositories too
-      - name: Languages
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.languages.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: bayazid-arefin
-          template: classic
-          base: ""
-          repositories_affiliations: owner, collaborator, organization_member
-          config_timezone: Asia/Dhaka
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          plugin_languages_limit: 8
-          plugin_languages_ignored: html, css, scss
+      - name: Generate stats cards
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: python3 .github/scripts/stats.py
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats-dark.svg stats-light.svg
+          git diff --cached --quiet || git commit -m "Update GitHub stats"
+          git push
