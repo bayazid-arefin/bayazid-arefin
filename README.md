@@ -1,92 +1,64 @@
-<!-- ============ HEADER ============ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:2E1F5E,100:6D28D9&height=220&section=header&text=Bayazid%20Arefin&fontSize=56&fontColor=FFFFFF&fontAlignY=38&desc=Founder%20%E2%80%A2%20Web%20Developer%20%E2%80%A2%20Software%20Builder&descSize=16&descAlignY=58&descColor=C4B5FD&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:2A1B4D&height=150&text=Bayazid%20Arefin&fontSize=44&fontColor=F0F6FC&fontAlignY=42&desc=Founder%20of%20Frontous%20IT%20Ltd.%20%20%7C%20%20Full-Stack%20Developer&descSize=15&descAlignY=68&descColor=B9A6E8" width="100%" />
 
-<div align="center">
+<p align="center">
+  <a href="https://frontous.com"><img src="https://img.shields.io/badge/frontous.com-7C5CDB?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://hevium.com.bd"><img src="https://img.shields.io/badge/hevium.com.bd-30363D?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Dhaka,%20Bangladesh-30363D?style=flat-square&logo=googlemaps&logoColor=white" />
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&width=620&lines=Building+digital+products+that+matter;Founder+%40+Frontous+IT+Ltd.;Full-stack+web+%E2%80%A2+Scalable+architecture;Shipping+with+purpose." alt="Typing intro" />
+## About
 
-<br/>
+I'm a full-stack developer and the founder of **Frontous IT Ltd.**, a software and digital services company in Dhaka. I design and build web applications, internal business tools and e-commerce platforms for companies and clients, from planning through deployment.
 
-<a href="https://frontous.com"><img src="https://img.shields.io/badge/frontous.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=A78BFA" /></a>
-<a href="https://github.com/bayazid-arefin"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=A78BFA" /></a>
+Alongside running the company, I study Computer Science and Engineering at IUBAT.
 
-</div>
-
-<br/>
-
-<!-- ============ ABOUT ============ -->
-<h3>✦ About</h3>
-
-I build **web applications, business platforms and digital products** — from the first idea to production.
-Currently leading engineering at my own company while studying Computer Science.
-
-```yaml
-role:      Founder & Lead Developer
-focus:     Full-stack web · Dashboards · Business platforms
-approach:  Clean architecture, practical products, shipped on time
-```
-
-<br/>
-
-<!-- ============ ORGANIZATIONS ============ -->
-<h3>✦ Organizations</h3>
+## Organizations
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/frontous">
-        <img src="https://github.com/frontous.png" width="56" align="left" style="border-radius:12px" />
-      </a>
-      &nbsp;<b>Frontous IT Ltd.</b><br/>
-      &nbsp;<sub>Founder · Uttara, Dhaka</sub>
-      <br clear="left"/><br/>
-      Software development, design, digital marketing, cloud &amp; AI solutions for growing businesses.
+    <th width="50%" align="left">Frontous IT Ltd.</th>
+    <th width="50%" align="left">Hevium Mart</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <sub><b>Founder</b> · Uttara, Dhaka</sub><br/><br/>
+      Software development, UI/UX design, digital marketing, cloud and AI services for businesses.
       <br/><br/>
-      <a href="https://frontous.com"><img src="https://img.shields.io/badge/Website-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" /></a>
-      <a href="https://github.com/frontous"><img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white" /></a>
+      <a href="https://frontous.com"><img src="https://img.shields.io/badge/Visit%20website-7C5CDB?style=flat-square" /></a>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/heviummart">
-        <img src="https://github.com/heviummart.png" width="56" align="left" style="border-radius:12px" />
-      </a>
-      &nbsp;<b>Hevium Mart</b><br/>
-      &nbsp;<sub>Product · E-commerce &amp; Logistics</sub>
-      <br clear="left"/><br/>
-      Commerce and order-management platform built for fast, reliable delivery operations.
+    <td valign="top">
+      <sub><b>Engineering</b> · E-commerce &amp; Logistics</sub><br/><br/>
+      E-commerce and order management platform covering orders, delivery, support tickets and finance reporting.
       <br/><br/>
-      <a href="https://github.com/heviummart"><img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white" /></a>
+      <a href="https://hevium.com.bd"><img src="https://img.shields.io/badge/Visit%20website-7C5CDB?style=flat-square" /></a>
     </td>
   </tr>
 </table>
 
-<br/>
+## Private Work
 
-<!-- ============ STACK ============ -->
-<h3>✦ Stack</h3>
+> [!NOTE]
+> Nearly all of my work is in **private repositories** owned by my company and clients, so it doesn't appear in the public repository list. The contribution graph below includes these private contributions.
 
-<div align="center">
+| Project | Description | Stack | Access |
+| :-- | :-- | :-- | :-- |
+| **Hevium Platform** | Order management, ticketing, cash flow dashboards and PDF reporting | React, Ant Design, Node.js, MongoDB | ![Private](https://img.shields.io/badge/Private-30363D?style=flat-square) |
+| **Hevium Storefront** | Customer-facing e-commerce store with product pages and reviews | React | ![Private](https://img.shields.io/badge/Private-30363D?style=flat-square) |
+| **Frontous Website** | Company website and portfolio | Next.js, Tailwind CSS, Framer Motion | ![Private](https://img.shields.io/badge/Private-30363D?style=flat-square) |
+| **Niter Textile Club** | Official club website, built in partnership with Frontous | Web | ![Private](https://img.shields.io/badge/Private-30363D?style=flat-square) |
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,express,mongodb&theme=dark&perline=8" />
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=git,github,linux,nginx,vercel,vscode&theme=dark&perline=6" />
+## Tech Stack
 
-</div>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,express,mongodb,git,github,linux,nginx,vercel&theme=dark" />
+</p>
 
-<br/>
+## GitHub Activity
 
-<!-- ============ ACTIVITY ============ -->
-<h3>✦ Activity</h3>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=bayazid-arefin&background=0D1117&border=30363D&stroke=30363D&ring=7C5CDB&fire=7C5CDB&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=B9A6E8&sideLabels=8B949E&dates=6E7681&border_radius=8" width="100%" />
+</p>
 
-<div align="center">
+---
 
-<img src="https://streak-stats.demolab.com?user=bayazid-arefin&background=0D1117&border=2E1F5E&ring=A78BFA&fire=A78BFA&currStrNum=FFFFFF&sideNums=FFFFFF&currStrLabel=C4B5FD&sideLabels=8B949E&dates=6E7681&stroke=2E1F5E&border_radius=12&date_format=M%20j%5B%2C%20Y%5D" width="88%" />
-
-<br/><br/>
-
-<sub>🔒 Most of my work lives in private client &amp; company repositories.</sub>
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,50:2E1F5E,100:0D1117&height=110&section=footer" width="100%" />
+<p align="center"><sub>Open to project inquiries through <a href="https://frontous.com">Frontous IT Ltd.</a></sub></p>
