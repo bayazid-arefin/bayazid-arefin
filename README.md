@@ -38,57 +38,70 @@ Alongside running the company, I study Computer Science and Engineering at IUBAT
 ## Selected Work
 
 > [!NOTE]
-> These projects live in **private repositories** owned by my company and clients, so the source isn't public. Live versions are linked below, and the activity graph at the bottom includes private contributions.
+> These projects live in **private repositories** owned by my company and clients, so the source isn't public. Open the live preview links to see each project in action, and the activity graph at the bottom includes private contributions.
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Hevium Platform</h3>
-      <sub>E-commerce management · Hevium Mart</sub>
-      <br/><br/>
-      <a href="https://hevium.com.bd"><img src="https://img.shields.io/badge/Live-hevium.com.bd-7C5CDB?style=flat-square" /></a>
-      <img src="https://img.shields.io/badge/Private-30363D?style=flat-square" />
-      <br/><br/>
-      E-commerce management platform with an office admin panel, role-based access control, investor dashboard, multi-vendor order management, AI-powered features and courier API integration.
-      <br/><br/>
-      <sub><code>React</code> <code>Redux</code> <code>Ant Design</code> <code>Tailwind CSS</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Firebase</code> <code>Framer Motion</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>NITER Textile Club Platform</h3>
-      <sub>Club management system · Built with Frontous</sub>
-      <br/><br/>
-      <a href="https://nitertextileclub.org"><img src="https://img.shields.io/badge/Live-nitertextileclub.org-7C5CDB?style=flat-square" /></a>
-      <img src="https://img.shields.io/badge/Private-30363D?style=flat-square" />
-      <br/><br/>
-      Full digital platform for NITER Textile Club: member portal, admin dashboard, event management, member enrollment, authentication, transactions and club operations.
-      <br/><br/>
-      <sub><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>shadcn/ui</code> <code>Ant Design</code> <code>React Query</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Recharts</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Vorlanix Technologies LLC</h3>
-      <sub>Company website · US client</sub>
-      <br/><br/>
-      <a href="https://vorlanix.frontous.com"><img src="https://img.shields.io/badge/Live-vorlanix.frontous.com-7C5CDB?style=flat-square" /></a>
-      <img src="https://img.shields.io/badge/Private-30363D?style=flat-square" />
-      <br/><br/>
-      Responsive, animation-rich landing page for a US technology company offering AI development, custom software, business automation and web and mobile apps.
-      <br/><br/>
-      <sub><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>GSAP</code> <code>Framer Motion</code> <code>Lenis</code> <code>Radix UI</code> <code>Base UI</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Frontous IT Ltd.</h3>
-      <sub>Company website · Frontous</sub>
-      <br/><br/>
-      <a href="https://frontous.com"><img src="https://img.shields.io/badge/Live-frontous.com-7C5CDB?style=flat-square" /></a>
-      <img src="https://img.shields.io/badge/Private-30363D?style=flat-square" />
-      <br/><br/>
-      Responsive company website showcasing Frontous's services, solutions and digital capabilities, with a contact flow powered by Resend.
-      <br/><br/>
-      <sub><code>Next.js</code> <code>Tailwind CSS</code> <code>Framer Motion</code> <code>Lenis</code> <code>Lucide</code> <code>Recharts</code> <code>Resend</code></sub>
-    </td>
-  </tr>
+  <thead>
+    <tr>
+      <th align="left" width="27%">Project</th>
+      <th align="left" width="43%">Overview</th>
+      <th align="left" width="30%">Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        <b>Hevium Platform</b><br/>
+        <sub>E-commerce management · Hevium Mart</sub><br/><br/>
+        <a href="https://hevium.com.bd"><img src="https://img.shields.io/badge/Live%20Preview-%E2%86%97-7C5CDB?style=flat-square" alt="Live preview" /></a><br/>
+        <img src="https://img.shields.io/badge/Private%20repo-30363D?style=flat-square" alt="Private repository" />
+      </td>
+      <td valign="top">Office admin panel with role-based access, investor dashboard, multi-vendor order management, AI-powered features and courier API integration.<br/><br/><sub>🔗 <a href="https://hevium.com.bd">hevium.com.bd</a></sub></td>
+      <td valign="top">
+        <img src="https://skillicons.dev/icons?i=react,redux,tailwind,nodejs,express,mongodb,firebase&theme=dark&perline=4" height="64" /><br/>
+        <sub>Ant Design · Framer Motion</sub>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <b>NITER Textile Club</b><br/>
+        <sub>Club management platform</sub><br/><br/>
+        <a href="https://nitertextileclub.org"><img src="https://img.shields.io/badge/Live%20Preview-%E2%86%97-7C5CDB?style=flat-square" alt="Live preview" /></a><br/>
+        <img src="https://img.shields.io/badge/Private%20repo-30363D?style=flat-square" alt="Private repository" />
+      </td>
+      <td valign="top">Member portal, admin dashboard, event management, member enrollment, authentication, transactions and club operations.<br/><br/><sub>🔗 <a href="https://nitertextileclub.org">nitertextileclub.org</a></sub></td>
+      <td valign="top">
+        <img src="https://skillicons.dev/icons?i=nextjs,ts,tailwind,nodejs,express,mongodb&theme=dark&perline=4" height="64" /><br/>
+        <sub>shadcn/ui · Ant Design · React Query · Recharts</sub>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <b>Vorlanix Technologies</b><br/>
+        <sub>Company website · US client</sub><br/><br/>
+        <a href="https://vorlanix.frontous.com"><img src="https://img.shields.io/badge/Live%20Preview-%E2%86%97-7C5CDB?style=flat-square" alt="Live preview" /></a><br/>
+        <img src="https://img.shields.io/badge/Private%20repo-30363D?style=flat-square" alt="Private repository" />
+      </td>
+      <td valign="top">Animation-rich landing page for a US tech company offering AI development, custom software, automation and app development.<br/><br/><sub>🔗 <a href="https://vorlanix.frontous.com">vorlanix.frontous.com</a></sub></td>
+      <td valign="top">
+        <img src="https://skillicons.dev/icons?i=nextjs,ts,tailwind&theme=dark&perline=4" height="30" /><br/>
+        <sub>GSAP · Framer Motion · Lenis · Radix UI · Base UI</sub>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <b>Frontous IT Ltd.</b><br/>
+        <sub>Company website · Frontous</sub><br/><br/>
+        <a href="https://frontous.com"><img src="https://img.shields.io/badge/Live%20Preview-%E2%86%97-7C5CDB?style=flat-square" alt="Live preview" /></a><br/>
+        <img src="https://img.shields.io/badge/Private%20repo-30363D?style=flat-square" alt="Private repository" />
+      </td>
+      <td valign="top">Company website showcasing Frontous's services, solutions and digital capabilities, with a Resend-powered contact flow.<br/><br/><sub>🔗 <a href="https://frontous.com">frontous.com</a></sub></td>
+      <td valign="top">
+        <img src="https://skillicons.dev/icons?i=nextjs,tailwind&theme=dark&perline=4" height="30" /><br/>
+        <sub>Framer Motion · Lenis · Lucide · Recharts · Resend</sub>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ## Tech Stack
