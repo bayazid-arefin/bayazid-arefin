@@ -1,98 +1,92 @@
-
-<!-- PROFILE HEADER -->
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:15192c,50:474f7a,100:81689D&text=Bayazid%20Arefin&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=Web%20Developer%20%7C%20Founder%20%7C%20Software%20Builder&descAlignY=58&descSize=16" width="100%" alt="Bayazid Arefin profile banner" />
-
-<a href="https://github.com/bayazid-arefin">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+Digital+Products;Turning+Ideas+Into+Impact;Web+Development+%7C+Entrepreneurship" alt="Animated introduction" />
-</a>
-
-<p>
-  <a href="https://github.com/bayazid-arefin?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-Explore-81689D?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
-  </a>
-  <a href="https://github.com/bayazid-arefin?tab=followers">
-    <img src="https://img.shields.io/github/followers/bayazid-arefin?style=for-the-badge&color=fc6b03&label=Followers" alt="GitHub followers" />
-  </a>
-</p>
-
-</div>
-
----
-
-## `$ whoami`
-
-I'm **Bayazid Arefin**, a web developer and founder interested in building useful digital products and technology-driven businesses.
-
-- Building modern web applications and business solutions
-- Exploring scalable architectures and clean user experiences
-- Working across frontend, backend, and deployment workflows
-- Focused on turning ideas into practical products
-
----
-
-## `$ tech-stack`
+<!-- ============ HEADER ============ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:2E1F5E,100:6D28D9&height=220&section=header&text=Bayazid%20Arefin&fontSize=56&fontColor=FFFFFF&fontAlignY=38&desc=Founder%20%E2%80%A2%20Web%20Developer%20%E2%80%A2%20Software%20Builder&descSize=16&descAlignY=58&descColor=C4B5FD&animation=fadeIn" width="100%" />
 
 <div align="center">
 
-### Frontend
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="Frontend technologies" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&width=620&lines=Building+digital+products+that+matter;Founder+%40+Frontous+IT+Ltd.;Full-stack+web+%E2%80%A2+Scalable+architecture;Shipping+with+purpose." alt="Typing intro" />
 
-### Backend & Database
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" alt="Backend and database technologies" />
+<br/>
 
-### Tools & Deployment
-<img src="https://skillicons.dev/icons?i=git,github,linux,nginx,vercel,vscode" alt="Development tools" />
+<a href="https://frontous.com"><img src="https://img.shields.io/badge/frontous.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=A78BFA" /></a>
+<a href="https://github.com/bayazid-arefin"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=A78BFA" /></a>
 
 </div>
 
----
+<br/>
 
-## `$ featured-work`
+<!-- ============ ABOUT ============ -->
+<h3>✦ About</h3>
 
-I work on web applications, dashboards, business platforms, and digital products.
+I build **web applications, business platforms and digital products** — from the first idea to production.
+Currently leading engineering at my own company while studying Computer Science.
 
-**Explore my work:**
+```yaml
+role:      Founder & Lead Developer
+focus:     Full-stack web · Dashboards · Business platforms
+approach:  Clean architecture, practical products, shipped on time
+```
 
-- [All repositories](https://github.com/bayazid-arefin?tab=repositories)
-- [My GitHub activity](https://github.com/bayazid-arefin?tab=overview)
+<br/>
 
-> Private client and commercial projects remain private.
-> Only projects intentionally published as public will appear in the public repository list.
+<!-- ============ ORGANIZATIONS ============ -->
+<h3>✦ Organizations</h3>
 
----
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/frontous">
+        <img src="https://github.com/frontous.png" width="56" align="left" style="border-radius:12px" />
+      </a>
+      &nbsp;<b>Frontous IT Ltd.</b><br/>
+      &nbsp;<sub>Founder · Uttara, Dhaka</sub>
+      <br clear="left"/><br/>
+      Software development, design, digital marketing, cloud &amp; AI solutions for growing businesses.
+      <br/><br/>
+      <a href="https://frontous.com"><img src="https://img.shields.io/badge/Website-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+      <a href="https://github.com/frontous"><img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/heviummart">
+        <img src="https://github.com/heviummart.png" width="56" align="left" style="border-radius:12px" />
+      </a>
+      &nbsp;<b>Hevium Mart</b><br/>
+      &nbsp;<sub>Product · E-commerce &amp; Logistics</sub>
+      <br clear="left"/><br/>
+      Commerce and order-management platform built for fast, reliable delivery operations.
+      <br/><br/>
+      <a href="https://github.com/heviummart"><img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white" /></a>
+    </td>
+  </tr>
+</table>
 
-## `$ github-analytics`
+<br/>
+
+<!-- ============ STACK ============ -->
+<h3>✦ Stack</h3>
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=bayazid-arefin&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=FC6B03&text_color=C9D1D9&include_all_commits=true" alt="GitHub statistics" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bayazid-arefin&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" alt="Most used programming languages" />
-
-<img src="https://streak-stats.demolab.com?user=bayazid-arefin&hide_border=true&background=0D1117&ring=81689D&fire=FC6B03&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=9299AD&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub contribution streak" />
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,express,mongodb&theme=dark&perline=8" />
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=git,github,linux,nginx,vercel,vscode&theme=dark&perline=6" />
 
 </div>
 
----
+<br/>
 
-## `$ connect`
+<!-- ============ ACTIVITY ============ -->
+<h3>✦ Activity</h3>
 
 <div align="center">
 
-<a href="https://github.com/bayazid-arefin">
-  <img src="https://img.shields.io/badge/GitHub-Profile-15192c?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
-</a>
+<img src="https://streak-stats.demolab.com?user=bayazid-arefin&background=0D1117&border=2E1F5E&ring=A78BFA&fire=A78BFA&currStrNum=FFFFFF&sideNums=FFFFFF&currStrLabel=C4B5FD&sideLabels=8B949E&dates=6E7681&stroke=2E1F5E&border_radius=12&date_format=M%20j%5B%2C%20Y%5D" width="88%" />
 
-<a href="https://www.frontous.com/">
-  <img src="https://img.shields.io/badge/Frontous-IT-81689D?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Frontous" />
-</a>
+<br/><br/>
 
-<br />
-
-<sub>Building with purpose. Shipping with care.</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:81689D,50:474f7a,100:15192c" width="100%" alt="" />
+<sub>🔒 Most of my work lives in private client &amp; company repositories.</sub>
 
 </div>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,50:2E1F5E,100:0D1117&height=110&section=footer" width="100%" />
