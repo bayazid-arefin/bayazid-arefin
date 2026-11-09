@@ -3,9 +3,9 @@
 <rect x="0.5" y="0.5" width="839" height="249" rx="10" fill="#0D1117" stroke="#30363D"/>
 <text x="28" y="40" font-size="17" font-weight="600" fill="#F5F5F4">GitHub Overview</text>
 <text x="812" y="40" font-size="12" text-anchor="end" fill="#A8A29E">Including private &amp; organization repositories</text>
-<text x="126" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#F5F5F4">1,293</text>
+<text x="126" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#F5F5F4">1,295</text>
 <text x="126" y="124" font-size="13" text-anchor="middle" fill="#A8A29E">Contributions</text>
-<text x="322" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#F5F5F4">1,044</text>
+<text x="322" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#F5F5F4">1,046</text>
 <text x="322" y="124" font-size="13" text-anchor="middle" fill="#A8A29E">Commits</text>
 <line x1="224" y1="72" x2="224" y2="130" stroke="#30363D"/>
 <text x="518" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#F5F5F4">230</text>
@@ -17,13 +17,13 @@
 <text x="28" y="168" font-size="13" font-weight="600" fill="#E8541F">Most used languages</text>
 <clipPath id="bar"><rect x="28" y="180" width="784" height="10" rx="5"/></clipPath>
 <rect x="28" y="180" width="784" height="10" rx="5" fill="#21262D"/>
-<rect clip-path="url(#bar)" x="28.00" y="180" width="692.95" height="10" fill="#f1e05a"/>
-<rect clip-path="url(#bar)" x="720.95" y="180" width="90.76" height="10" fill="#3178c6"/>
-<rect clip-path="url(#bar)" x="811.71" y="180" width="0.29" height="10" fill="#A97BFF"/>
+<rect clip-path="url(#bar)" x="28.00" y="180" width="693.14" height="10" fill="#f1e05a"/>
+<rect clip-path="url(#bar)" x="721.14" y="180" width="90.27" height="10" fill="#3178c6"/>
+<rect clip-path="url(#bar)" x="811.41" y="180" width="0.59" height="10" fill="#A97BFF"/>
 <circle cx="33" cy="217" r="5" fill="#f1e05a"/>
 <text x="44" y="221" font-size="12.5" fill="#F5F5F4">JavaScript <tspan fill="#A8A29E">88.4%</tspan></text>
 <circle cx="294" cy="217" r="5" fill="#3178c6"/>
-<text x="305" y="221" font-size="12.5" fill="#F5F5F4">TypeScript <tspan fill="#A8A29E">11.6%</tspan></text>
+<text x="305" y="221" font-size="12.5" fill="#F5F5F4">TypeScript <tspan fill="#A8A29E">11.5%</tspan></text>
 <circle cx="556" cy="217" r="5" fill="#A97BFF"/>
-<text x="567" y="221" font-size="12.5" fill="#F5F5F4">Kotlin <tspan fill="#A8A29E">0.0%</tspan></text>
+<text x="567" y="221" font-size="12.5" fill="#F5F5F4">Kotlin <tspan fill="#A8A29E">0.1%</tspan></text>
 </svg>
