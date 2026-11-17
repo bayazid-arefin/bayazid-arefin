@@ -3,9 +3,9 @@
 <rect x="0.5" y="0.5" width="839" height="249" rx="10" fill="#FFFFFF" stroke="#F1E4DC"/>
 <text x="28" y="40" font-size="17" font-weight="600" fill="#111111">GitHub Overview</text>
 <text x="812" y="40" font-size="12" text-anchor="end" fill="#57534E">Including private &amp; organization repositories</text>
-<text x="126" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#111111">1,359</text>
+<text x="126" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#111111">1,365</text>
 <text x="126" y="124" font-size="13" text-anchor="middle" fill="#57534E">Contributions</text>
-<text x="322" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#111111">1,108</text>
+<text x="322" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#111111">1,114</text>
 <text x="322" y="124" font-size="13" text-anchor="middle" fill="#57534E">Commits</text>
 <line x1="224" y1="72" x2="224" y2="130" stroke="#F1E4DC"/>
 <text x="518" y="100" font-size="30" font-weight="700" text-anchor="middle" fill="#111111">232</text>
@@ -17,8 +17,8 @@
 <text x="28" y="168" font-size="13" font-weight="600" fill="#E8541F">Most used languages</text>
 <clipPath id="bar"><rect x="28" y="180" width="784" height="10" rx="5"/></clipPath>
 <rect x="28" y="180" width="784" height="10" rx="5" fill="#F5F0EC"/>
-<rect clip-path="url(#bar)" x="28.00" y="180" width="706.34" height="10" fill="#f1e05a"/>
-<rect clip-path="url(#bar)" x="734.34" y="180" width="77.15" height="10" fill="#3178c6"/>
+<rect clip-path="url(#bar)" x="28.00" y="180" width="706.58" height="10" fill="#f1e05a"/>
+<rect clip-path="url(#bar)" x="734.58" y="180" width="76.91" height="10" fill="#3178c6"/>
 <rect clip-path="url(#bar)" x="811.49" y="180" width="0.51" height="10" fill="#A97BFF"/>
 <circle cx="33" cy="217" r="5" fill="#f1e05a"/>
 <text x="44" y="221" font-size="12.5" fill="#111111">JavaScript <tspan fill="#57534E">90.1%</tspan></text>
